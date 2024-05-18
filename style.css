@@ -96,7 +96,7 @@ article p {
     
 }
 .rest li::marker {
-    color: #5e3806dd;; /* Muda a cor do marcador para violeta*/
+    color: #5e3806dd;; /* Muda a cor do marcador para marrom*/
     font-weight: bold;
     
 }
