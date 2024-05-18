@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Outfit';
+    src: url(fontes/Outfit-VariableFont_wght.ttf) format(truetype);
+   
+}
+@font-face {
+    font-family: 'Young';
+    src: url(fontes/YoungSerif-Regular.ttf) format(truetype);
+    
+}
+:root {
+    --textos: 'Outfit';
+    --titulos: 'Young';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #e4c8a38b;
+}
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: var(--textos);
+    text-align: justify;
+    padding-right: 20px;
+    
+}
+img {
+   width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;      
+   
+}
+header h1 { 
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-family: var(--titulos);
+    
+}
+header > p {
+    padding-left: 30px;
+    padding-bottom: 40px;
+    
+}
+article h3 {
+    padding-left: 40px;
+    font-family: var(--titulos);
+    color: #600641;
+    font-weight: bold;
+}
+article ul {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+article ol {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+article h2 {
+    padding-left: 30px;
+    font-family: var(--titulos);
+    color: #563802f2;
+    font-weight: normal;
+    
+    
+}
+article p {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#prep li::marker {
+    color: #600641; /* Muda a cor do marcador para violeta*/
+  }
+#nutri {
+    list-style-type: none; /* Remove os marcadores das listas */
+    columns: 2
+    
+    
+}
+.rest li::marker {
+    color: #5e3806dd;; /* Muda a cor do marcador para violeta*/
+    font-weight: bold;
+    
+}
+span {
+    color: #5e3806dd;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #2d1a01dd;
+    margin-top: 30px;
+    padding-top: 5px;
+}
